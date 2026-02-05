@@ -328,7 +328,7 @@ const submit = async () => {
 
           <div>
             <label class="font-medium">WhatsApp <span class="required">*</span></label>
-            <InputText v-model="dadosPessoais.whatsapp" class="w-full" />
+            <InputMask mask="(99) 99999-9999" v-model="dadosPessoais.whatsapp" class="w-full" />
           </div>
 
           <div>
